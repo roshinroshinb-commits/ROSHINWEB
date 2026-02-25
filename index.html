@@ -143,6 +143,33 @@ section{
   font-weight:500;
 }
 
+/* Feedback Form */
+input, textarea{
+  width:100%;
+  padding:12px;
+  margin-top:15px;
+  background:#000;
+  border:1px solid gold;
+  color:white;
+  border-radius:5px;
+}
+
+button{
+  margin-top:20px;
+  padding:12px 20px;
+  border:none;
+  background:gold;
+  color:black;
+  font-weight:bold;
+  cursor:pointer;
+  transition:0.3s;
+  border-radius:5px;
+}
+
+button:hover{
+  background:white;
+}
+
 @keyframes fadeIn{
   from{opacity:0; transform:translateY(30px);}
   to{opacity:1; transform:translateY(0);}
@@ -158,6 +185,7 @@ section{
     <a href="#about">About</a>
     <a href="#skills">Skills</a>
     <a href="#projects">Projects</a>
+    <a href="#feedback">Feedback</a>
     <a href="#contact">Contact</a>
   </nav>
 </header>
@@ -171,12 +199,11 @@ section{
   <h2 style="color:gold;">About Me</h2>
   <div class="card">
     <p>
-      I am Roshin, currently pursuing Bachelor of Computer Applications (BCA). 
-      I specialize in Full Stack Web Development and have a strong interest in Cloud Computing.
+      I am Roshin, currently pursuing BCA. 
+      I specialize in Full Stack Web Development and Cloud Computing.
       <br><br>
-      I build responsive and scalable web applications using modern technologies. 
-      I am passionate about backend systems, deployment, and cloud platforms.
-      My goal is to become a highly skilled software developer in web and cloud technologies.
+      I build responsive and scalable web applications using modern technologies.
+      My goal is to become a highly skilled software developer.
     </p>
   </div>
 </section>
@@ -200,24 +227,34 @@ section{
   <div class="projects">
     <div class="project-card">
       <h3>Portfolio Website</h3>
-      <p>Personal developer portfolio built with modern UI and animations.</p>
+      <p>Personal developer portfolio with modern UI.</p>
     </div>
     <div class="project-card">
       <h3>Full Stack Web App</h3>
-      <p>Complete web application with frontend, backend and database integration.</p>
+      <p>Frontend + Backend + Database integration project.</p>
     </div>
     <div class="project-card">
       <h3>Cloud Deployment Project</h3>
-      <p>Deployed scalable application using cloud hosting services.</p>
+      <p>Deployed application using cloud hosting services.</p>
     </div>
+  </div>
+</section>
+
+<section id="feedback">
+  <h2 style="color:gold;">Feedback</h2>
+  <div class="card">
+    <input type="text" placeholder="Your Name">
+    <input type="email" placeholder="Your Email">
+    <textarea rows="4" placeholder="Your Message"></textarea>
+    <button>Submit</button>
   </div>
 </section>
 
 <section id="contact">
   <h2 style="color:gold;">Contact</h2>
   <div class="card contact-info">
-    <p>Email: <span>roshinroshinb@gmail.com</span></p>
-    <p>Phone: <span>+91 9744598534</span></p>
+    <p>Email: <span>yourmail@example.com</span></p>
+    <p>Phone: <span>+91 9876543210</span></p>
   </div>
 </section>
 
